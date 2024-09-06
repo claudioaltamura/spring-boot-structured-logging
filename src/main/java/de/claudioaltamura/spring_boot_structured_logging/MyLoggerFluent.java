@@ -12,7 +12,10 @@ class MyLoggerFluent implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        LOGGER.atInfo().setMessage("Hello structured logging, fluently!").addKeyValue("userId", "1").log();
+        LOGGER
+                .atInfo()
+                .setMessage("Hello structured logging, fluently!")
+                .addKeyValue("userId", "1").log();
     }
 
 }
