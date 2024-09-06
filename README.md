@@ -50,6 +50,17 @@ Here are some of the configuration options you can try in your `application.prop
 4. Use a custom formatter class for console logging. Replace MyStructuredLoggingFormatter with your own implementation.
 5. This configuration uses a custom JSON formatter for console logs, offering full control over the structure and content of your log messages.
 
+## 💡Examples
+
+logstash
+```
+{"@timestamp":"2024-09-06T10:45:47.566949+02:00","@version":"1","message":"Hello structured logging!","logger_name":"de.claudioaltamura.spring_boot_structured_logging.MyLogger","thread_name":"main","level":"INFO","level_value":20000,"userId":"1"}
+```
+ecs
+```
+{"@timestamp":"2024-09-06T10:46:37.390982Z","log.level":"INFO","process.pid":9954,"process.thread.name":"main","service.name":"spring-boot-structured-logging","log.logger":"de.claudioaltamura.spring_boot_structured_logging.MyLogger","message":"Hello structured logging!","userId":"1","ecs.version":"8.11"}
+```
+
 ## 📚 Resources
 [Spring Blog: Structured Logging in Spring Boot 3.4](https://spring.io/blog/2024/08/23/structured-logging-in-spring-boot-3-4)
 
