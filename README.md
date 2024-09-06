@@ -14,9 +14,9 @@ With the release of Spring Boot 3.4, enabling structured logging is easier than 
 
 ## ✨ Spring Boot Structured Logging Key Features
 
-- **Easy Configuration**: Enable structured logging with simple application properties.
-- **Format Options**: Choose between different structured logging formats such as ECS (Elastic Common Schema) or Logstash.
-- **Custom Formatters**: Implement your own formatters for custom log output.
+- Enable structured logging with simple application properties.
+- Choose between different structured logging formats such as ECS (Elastic Common Schema) or Logstash.
+- Implement your own formatters for custom log output.
 
 ## 🛠️ How to Run
 Clone this repository and run the application using:
@@ -51,11 +51,9 @@ Here are some of the configuration options you can try in your `application.prop
 5. This configuration uses a custom JSON formatter for console logs, offering full control over the structure and content of your log messages.
 
 ## 📚 Resources
-Spring Blog: Structured Logging in Spring Boot 3.4
-Baeldung: Java Structured Logging
+[Spring Blog: Structured Logging in Spring Boot 3.4](https://spring.io/blog/2024/08/23/structured-logging-in-spring-boot-3-4)
+
+[Baeldung: Java Structured Logging](https://www.baeldung.com/java-structured-logging)
 
 ## 🤝 Contributing
 Feel free to submit pull requests or raise issues to improve this example project. Contributions are always welcome!
-
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
